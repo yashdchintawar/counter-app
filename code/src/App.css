@@ -1,0 +1,36 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.counter-app {
+  text-align: center;
+}
+
+.counter-div {
+  margin-top: 20px;
+}
+
+.counter-btn {
+  margin: 0 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.counter-btn {
+  border: red solid 2px;
+  border-radius: 45%;
+  margin-left: 25px;
+  font-size: 25px;
+}
+
+.counter-btn:hover {
+  background-color: red !important;
+  border: solid black 2px;
+  color: white;
+  cursor: pointer;
+}
